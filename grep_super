@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Script 'grep super' pour effectuer une recherche avancée
+search_term=$1
+search_dir=${2:-.}  # Par défaut, recherche dans le répertoire courant
+
+if [ -z "$search_term" ]; then
+    echo "Usage: $0 <search_term> [directory]"
+    exit 1
+fi
+
+# Recherche récursive avec grep et affichage des numéros de ligne et des chemins complets
+grep -rnw "$search_dir" -e "$search_term"
