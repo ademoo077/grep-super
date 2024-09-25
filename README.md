@@ -20,9 +20,21 @@ Commencez par cloner ce dépôt sur votre machine locale :
 ```bash
 git clone https://github.com/ton-utilisateur/grep-super.git
 cd grep-super
-## Installation
-
+````
 ### 2. Rendre le script exécutable
 Une fois que vous avez cloné le dépôt, rendez le script exécutable :
 ```bash
 chmod +x grep_super.sh
+
+````
+### 3.Installer le script globalement (optionnel):
+Pour installer le script globalement sur votre système et pouvoir l'utiliser depuis n'importe quel répertoire :
+```bash
+sudo mv grep_super.sh /usr/local/bin/grep_super
+```
+### 4.Utilisation:
+Recherche dans un répertoire spécifique :
+```bash
+grep_super "mot_recherche" /chemin/vers/repertoire
+```
+
