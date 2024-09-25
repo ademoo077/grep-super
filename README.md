@@ -18,7 +18,7 @@ Avant de commencer, assurez-vous que votre système dispose de :
 ### 1. Cloner le dépôt
 Commencez par cloner ce dépôt sur votre machine locale :
 ```bash
-git clone https://github.com/ton-utilisateur/grep-super.git
+git clone https://github.com/ademoo077/grep-super.git
 cd grep-super
 ````
 ### 2. Rendre le script exécutable
