@@ -1,2 +1,22 @@
-# grep-super
-Grep Super est une commande avancée inspirée de grep, conçue pour des recherches de texte rapides et efficaces. Avec des expressions régulières puissantes, une recherche récursive, et une sortie personnalisable, elle est idéale pour les développeurs et administrateurs système.
+# Grep Super
+
+**Grep Super** est une version personnalisée de la commande `grep`, conçue pour effectuer des recherches avancées et récursives dans les fichiers. Il est idéal pour les développeurs et les utilisateurs Linux qui souhaitent un outil de recherche rapide et performant.
+
+## Fonctionnalités
+- Recherche récursive dans un répertoire spécifié
+- Affiche les lignes correspondantes avec leur numéro et chemin complet
+- Peut être utilisé avec un répertoire spécifique ou le répertoire courant
+
+## Prérequis
+
+Avant de commencer, assurez-vous que votre système dispose de :
+- **Linux** ou **WSL (Windows Subsystem for Linux)** installé
+- **Git** installé sur votre machine
+
+## Installation
+
+### 1. Cloner le dépôt
+Commencez par cloner ce dépôt sur votre machine locale :
+```bash
+git clone https://github.com/ton-utilisateur/grep-super.git
+cd grep-super
